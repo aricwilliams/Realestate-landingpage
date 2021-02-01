@@ -1,0 +1,176 @@
+.container{
+    background-color: red;
+}
+  .bg-image {
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  /* .overlay{
+    height:100%;
+    background-color: black;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    
+  } */
+  .w-text{
+      color: white;
+  }
+  .content{
+      text-align: left;
+      margin-right: 30%;
+      margin-left: 10%;
+  }
+  .content p{
+    font-weight: 400px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.content h1{
+    font-weight: 700px;
+    font-size: 53px;
+    margin-top: 30px;
+    padding-top: 20px;
+
+}
+.mybtn{
+    background-color: red !important;
+    border-radius: 0px !important;
+    padding: 20px 32px !important;
+    font-size: 18px !important;
+    margin-bottom: 24px;
+    margin-top: 20px;
+    border: 1px solid red !important;
+}
+
+.logo{
+    padding-top: 30px;
+    font-size: 30px;
+}
+.head{
+    padding-top: 100px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+}
+.detail{
+    font-size: 20px !important;
+    padding-top: 20px;
+}
+
+ .bg-modal {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+    align-items: center;
+    animation-name: popup-move;
+	animation-duration: 1s;
+}
+
+
+.modal-contents {
+	height: 500px;
+	width: 700px;
+	background-color: #f7f7f7;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 0px;
+}
+
+input {
+	margin: 15px auto;
+	display: block;
+	width: 99% !important;
+	padding: 8px;
+    border: 1px solid gray;
+}
+.mt{
+    margin-top: 15px;
+}
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+.form{
+    padding: 50px;
+}
+.form h2{
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.mybtn2{
+    background-color: red !important;
+    border-radius: 0px !important;
+    padding: 20px 32px !important;
+    font-size: 18px !important;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border: 1px solid red !important;
+    width: 100%;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1180px) {
+    /* .input {
+      width: 99%;
+      margin-top: 0;
+    }
+    .modal-contents{
+        margin: 15px auto;
+    }
+    .content{
+        text-align: center;
+        margin-right: 0%;
+        margin-left: 0%;
+    } */
+    .content h1{
+        font-weight: 700px;
+        font-size: 43px;
+        margin-top: 20px;
+    
+    }
+    
+ 
+  }
+@media screen and (max-width: 600px) {
+    .input {
+      width: 99%;
+      margin-top: 0;
+    }
+    .modal-contents{
+        margin: 15px auto;
+    }
+    .content{
+        text-align: center;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .content h1{
+        font-weight: 700px;
+        font-size: 43px;
+        margin-top: 20px;
+        text-align: center;
+    
+    }
+    
+ 
+  }
